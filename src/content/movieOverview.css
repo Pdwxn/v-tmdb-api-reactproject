@@ -1,0 +1,63 @@
+.container-over {
+    display: flex;
+    flex-direction: row;
+}
+
+.mvo-content {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.mvo-backdrop {
+    max-width: 1481px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.container-grid {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.mvo-pstr {
+    max-width: 350px;
+    border-radius: 8px;
+
+}
+
+.mvo-pstr:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.grid-info {
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: right;
+
+}
+
+.mvo-title {
+}
+
+.mvo-vote {
+
+}
+
+.mvo-date {
+   
+}
+
+.mvo-time {
+}
+
+.mvo-tag {
+}
+
+.mvo-info {
+    
+}

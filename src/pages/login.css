@@ -1,0 +1,105 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040714;
+  margin: 20px 100px 20px 100px;
+}
+
+.App-logo {
+  max-width: 150px;
+}
+
+.App-back {
+  padding: 10px 15px;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
+}
+
+.body-login {
+  background-color: black;
+}
+
+.back-img {
+  width: 1500px;
+  opacity: 0.5;
+  margin-left: 40px;
+}
+
+.form-inicio {
+  background-color: rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  position: absolute;
+  padding: 100px;
+  margin: 50px 300px 75px 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  top: 25%;
+  left: 0;
+  right: 0;
+  min-width: 400px;
+}
+
+.form-top {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-data {
+  background-color: #333;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  color: white;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.form-pswrd {
+  background-color: #333;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  color: white;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.form-bttn {
+  padding: 10px 15px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
+}
+
+.app-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 100px 20px 100px;
+}
+
+.logo-footer {
+  max-width: 100px;
+  justify-content: baseline;
+}
+
+.info-footer {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  margin: 20px 800px 20px 0px;
+  font-size: 0.7rem;
+  box-sizing: border-box;
+}

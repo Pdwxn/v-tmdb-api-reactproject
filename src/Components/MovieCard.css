@@ -1,0 +1,33 @@
+.mv-card {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.mv-poster {
+    width: 300px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 7px;
+    border: solid 1px rgba(190, 190, 190, 0.2);
+}
+
+.mv-poster:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.mv-title {
+    font-weight: 700;
+    font-size: small;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.mv-release {
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}

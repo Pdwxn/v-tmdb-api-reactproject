@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040714;
+  margin: 0px 600px 0px 600px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  max-width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-login {
+  padding: 10px 15px;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home-card {
+  margin: 25px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.Card-img {
+  width: 1300px;
+  height: 600px;
+  border-radius: 50px;
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Text-1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.Text-2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.Email {
+  background-color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  height: auto;
+  width: 250px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.email placeholder {
+  color: black;
+}
+
+.bttn-email {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: absolute;
+  top: 82%;
+  left: 15%;
+  padding: 15px 50px;
+  border-radius: 8px;
+  background-color: rgb(27, 34, 235);
+  border: solid 1px rgb(29, 35, 211);
+  color: #f9f9f9;
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 100px 20px 100px;
+}
+
+.info-text1 {
+  font-size: 2.5rem;
+  font-weight: 800;
 }
